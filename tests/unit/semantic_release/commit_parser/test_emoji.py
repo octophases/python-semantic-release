@@ -40,12 +40,20 @@ if TYPE_CHECKING:
             [":bug: Fixing a bug", "The bug is finally gone!"],
             [],
         ),
-        # No release
+        # No release with specified emoji
         (
             ":pencil: Documentation changes",
             LevelBump.NO_RELEASE,
-            "Other",
+            ":pencil:",
             [":pencil: Documentation changes"],
+            [],
+        ),
+        # No release with random emoji
+        (
+            ":construction: Work in progress",
+            LevelBump.NO_RELEASE,
+            "Other",
+            [":construction: Work in progress"],
             [],
         ),
         # Multiple emojis

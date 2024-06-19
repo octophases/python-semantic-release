@@ -116,6 +116,11 @@ The default configuration options for
         ":robot:",
         ":green_apple:",
     ]
+    other_tags = [
+        ":pencil:",
+        ":construction_worker:",
+        ":recycle:",
+    ]
 
 .. _commit-parser-scipy:
 
